@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB929CC0228A2DE400CE364A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB929CBF228A2DE400CE364A /* Assets.xcassets */; };
 		ABF6352922877FD10035AE0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF6352822877FD10035AE0D /* AppDelegate.swift */; };
 		ABF6353122877FD10035AE0D /* PersistenceExam_Starter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABF6352F22877FD10035AE0D /* PersistenceExam_Starter.xcdatamodeld */; };
 		ABF6353622877FD50035AE0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF6353422877FD50035AE0D /* LaunchScreen.storyboard */; };
 		ABF6354122877FD50035AE0D /* PersistenceExam_StarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF6354022877FD50035AE0D /* PersistenceExam_StarterTests.swift */; };
 		ABF6356622878BD30035AE0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF6356522878BD30035AE0D /* Main.storyboard */; };
-		ABF6356822878BE90035AE0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF6356722878BE90035AE0D /* Assets.xcassets */; };
 		ABF6356E228794C20035AE0D /* UIWindow+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF6356C228794C20035AE0D /* UIWindow+Extensions.swift */; };
 		ABF6356F228794C20035AE0D /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF6356D228794C20035AE0D /* UIColor+Extensions.swift */; };
 		ABF63572228794C90035AE0D /* TableDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF63570228794C90035AE0D /* TableDatasource.swift */; };
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB929CBF228A2DE400CE364A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABF6352522877FD10035AE0D /* PersistenceExam-Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PersistenceExam-Starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF6352822877FD10035AE0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABF6353022877FD10035AE0D /* PersistenceExam_Starter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersistenceExam_Starter.xcdatamodel; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		ABF6354022877FD50035AE0D /* PersistenceExam_StarterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceExam_StarterTests.swift; sourceTree = "<group>"; };
 		ABF6354222877FD50035AE0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABF6356522878BD30035AE0D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		ABF6356722878BE90035AE0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../TriviaTime/TriviaTime/Assets.xcassets; sourceTree = "<group>"; };
 		ABF6356C228794C20035AE0D /* UIWindow+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extensions.swift"; sourceTree = "<group>"; };
 		ABF6356D228794C20035AE0D /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		ABF63570228794C90035AE0D /* TableDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDatasource.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 				ABF6357C2287976D0035AE0D /* Extensions */,
 				ABF6352822877FD10035AE0D /* AppDelegate.swift */,
 				ABF6356522878BD30035AE0D /* Main.storyboard */,
-				ABF6356722878BE90035AE0D /* Assets.xcassets */,
+				AB929CBF228A2DE400CE364A /* Assets.xcassets */,
 				ABF6353422877FD50035AE0D /* LaunchScreen.storyboard */,
 				ABF6353722877FD50035AE0D /* Info.plist */,
 				ABF6352F22877FD10035AE0D /* PersistenceExam_Starter.xcdatamodeld */,
@@ -260,7 +260,7 @@
 			files = (
 				ABF6356622878BD30035AE0D /* Main.storyboard in Resources */,
 				ABF6353622877FD50035AE0D /* LaunchScreen.storyboard in Resources */,
-				ABF6356822878BE90035AE0D /* Assets.xcassets in Resources */,
+				AB929CC0228A2DE400CE364A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
